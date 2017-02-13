@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Writer</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <a href="/" class="new">+</a>
+    <div class="actions">
+      <div class="slug">
+        <input type="hidden" name="old-name" value="">
+        <input type="text" name="name" value="">
+      </div>
+      <button type="button" id="save">Save</button>
+      <button type="button" id="delete">Delete</button>
+      <small class="message"></small>
+      <a href="" download="" id="download">Download</a>
+    </div>
+    <div class="editor">
+      <input type="text" name="title" value="" placeholder="Title...">
+      <textarea name="content" placeholder="Content..."></textarea>
+    </div>
+    <div class="history">
+      <h4>History</h4>
+      <ol class="list">
+      </ol>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
